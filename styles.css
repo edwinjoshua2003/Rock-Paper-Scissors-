@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Asap,sans-serif;
+}
+
+body{
+    background-color: #292C34;
+}
+
+
+header{
+    background: white;
+    text-align: center;
+    padding: 20px;
+}
+header>h1{
+    color: #25272E;
+}
+
+.scoreboard{
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 200px;
+    color:white;
+    font-size: 46px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+
+.badge{
+    background-color: #e2584d;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+
+}
+
+
+#userlabel{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#complabel{
+    position: absolute;
+    top: 30px;
+    right:-30px;
+}
+
+.result{
+    color:white;
+    
+    font-size: 40px;
+}
+.result>p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.choice{
+    border: 4px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 20px;
+    transition: all .3s ease;
+}
+
+
+.choice:hover{
+    background-color:lightsteelblue;
+    cursor: pointer;
+}
+
+
+#actionmessage{
+    margin-top: 20px;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.greenglow{
+    border: 8px solid green;
+    box-shadow: 0 0 10px #31b43a;
+}
+.greenglow:hover{
+    background-color: lightgreen;
+}
+
+.redglow{
+    border: 8px solid orangered;
+    box-shadow: 0 0 10px #d01115;
+}
+.redglow:hover{
+    background-color: red;
+}
+
+.grayglow{
+    border: 8px solid whitesmoke;
+    box-shadow: 0 0 10px #25292b;
+}
+.grayglow:hover{
+    background-color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
